@@ -20,8 +20,6 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
   assert_template 'categories/new'
   assert_select "h2.panel-title"# this is what the errors are in so were checking if the error message popped up
   assert_select 'div.panel-body'
-
-
   end
 
 
