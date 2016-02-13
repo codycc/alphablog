@@ -1,5 +1,6 @@
 <h1 align ="center">Listing all categories<h1>
   <div align="center">
+    <%= will_paginate %>
   <% @categories.each do |category| %>
 
     <ul class="listing">
@@ -12,4 +13,5 @@
       </div>
     </ul>
   <%end %>
+  <% will_paginate %>
 </div>
