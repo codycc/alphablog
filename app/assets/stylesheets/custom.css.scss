@@ -1,9 +1,18 @@
-$navbar-default-bg: #7cccd2;
+$navbar-default-bg: #4952A1;
+
 
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+.navbar-default .navbar-nav > li > a {
+  color:white;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  font-weight:lighter;
+
+}
 #logo {
   float:left;
   font-size:1.7em;
@@ -25,7 +34,7 @@ $navbar-default-bg: #7cccd2;
 }
 
 .jumbotron {
-  background-image: asset-url('alphablogbg.jpg');
+  background-image: asset-url('alphablogbg3.jpg');
   background-size:cover;
   height:550px;
 
@@ -41,8 +50,18 @@ $navbar-default-bg: #7cccd2;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color:#38b9bd;
-  color:#dddddd;
+  background-color:#dddddd;
+  color:#3C2960;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  font-weight:lighter;
+}
+
+.btn-xlarge:hover {
+  background-color: #445389;
+  color:white;
+
+
 }
 
 .article-meta-details {
