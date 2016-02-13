@@ -100,6 +100,26 @@ list-style:none;
 padding-left: 0;
 }
 
+.badge {
+  background-color:#4952A1;
+  color:white;
+  text-transform: uppercase;
+
+  font-weight:lighter;
+
+}
+
+.badge a {
+  color:white;
+  
+
+}
+
+.input_checbox input {
+  width: auto !important;
+
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
