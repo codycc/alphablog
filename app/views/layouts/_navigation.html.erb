@@ -9,16 +9,16 @@
         <span class="icon-bar"></span>
       </button>
 
-      <%= link_to "Alpha blog", root_path, class: "navbar-brand", id: "logo" %>
+      <%= link_to "BITMAKER BLOGS", root_path, class: "navbar-brand", id: "logo" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-
+ <% if logged_in? %>
         <li> <%= link_to "Articles", articles_path %> </li>
         <li><%= link_to "Users", users_path %></li>
-       <% if logged_in? %>
+
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
 
@@ -33,7 +33,7 @@
             <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
-        <% end %>
+
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
 
@@ -50,8 +50,9 @@
             </ul>
           </li>
 
-
+    <% end %>
       </ul>
+
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
