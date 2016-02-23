@@ -23,7 +23,6 @@ class UsersController < ApplicationController
     def edit
 
     end
-
     def update
 
       if @user.update(user_params)
@@ -32,7 +31,6 @@ class UsersController < ApplicationController
       else
         render 'edit'
       end
-
     end
 
     def show
@@ -47,7 +45,6 @@ class UsersController < ApplicationController
       redirect_to users_path
 
     end
-
 
   private
     def user_params
