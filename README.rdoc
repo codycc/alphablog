@@ -1,8 +1,11 @@
 == README
 A blogging app im working on for users,
-uses rails ,AJAX , gravatar
-functionality includes:
+uses rails ,AJAX , gravatar.
+Functionality includes:
                         *7 actions for article
                         Users to sign up and create article.
+
+                        * Customized it on new branch so all bitmaker students can network and share blogs with each other,
+                        added article categories relating to all of bitmakers activities, including; Coffee Code, site visits, etc.
 
 <tt>rake doc:app</tt>.
